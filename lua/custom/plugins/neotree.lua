@@ -42,4 +42,5 @@ return {
       },
     },
   },
+  vim.keymap.set('n', '|', '<cmd>Neotree action=focus<CR>', { desc = 'Focus NeoTree' }),
 }
